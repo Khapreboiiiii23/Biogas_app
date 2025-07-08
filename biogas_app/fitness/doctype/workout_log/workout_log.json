@@ -2,6 +2,7 @@
   "doctype": "DocType",
   "name": "Workout Log",
   "module": "fitness",
+  "app": "biogas_app",
   "custom": 0,
   "fields": [
     {
