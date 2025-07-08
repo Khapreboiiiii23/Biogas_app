@@ -1,0 +1,29 @@
+{
+  "doctype": "DocType",
+  "name": "Workout Log",
+  "module": "Fitness",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "workout_type",
+      "label": "Workout Type",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "duration",
+      "label": "Duration",
+      "fieldtype": "Int"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ],
+  "istable": 0,
+  "editable_grid": 1
+}
